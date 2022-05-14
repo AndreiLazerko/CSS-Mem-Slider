@@ -181,3 +181,53 @@ html, body{
   border: .2em solid blue;
   transform: translateY(-.2em);
 }
+
+@media screen and (max-width: 1100px){
+  .wrap{
+    max-width: 800px;
+    height: 555px;
+  }
+  .slide {
+    width: 95.5%;
+    height: 46%;
+  }
+  .slide-1{
+    background-image: url(images/litle/Lucifer.jpg);
+  }
+  
+  .slide-1:hover{
+    background-image: url(images/litle/Lucifer-1.jpg);
+  }
+  
+  .slide-2{
+    background-image: url(images/litle/Peaky-Blinders-5.jpg);
+    
+  }
+  .slide-2:hover{
+    background-image: url(images/litle/Peaky-Blinders.jpg);
+  }
+  
+  .slide-3{
+    background-image: url(images/litle/Riverdale.jpg);
+   
+  }
+  .slide-3:hover{
+    background-image: url(images/litle/Riverdale-1.jpg);
+  }
+  
+  .slide-4{
+    background-image: url(images/litle/see.jpg);
+  }
+  .slide-4:hover{
+    background-image: url(images/litle/see-1.jpg);
+  }
+  .navigation{
+    transform: translateX(-110%);
+  }
+
+  
+  .citate, .navigation{
+    padding-top: 1.4em;
+  }
+
+}
