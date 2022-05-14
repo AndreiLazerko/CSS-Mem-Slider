@@ -231,3 +231,13 @@ html, body{
   }
 
 }
+@media screen and (max-width: 800px){
+  .wrap {
+      max-width: 500px;
+      height: 560px;
+  }
+  .slide {
+    width: 93.5%;
+    height: 46%;
+}
+}
