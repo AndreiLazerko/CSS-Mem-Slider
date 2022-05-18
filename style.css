@@ -106,11 +106,12 @@ html, body{
 .bar {
   height: 8px;
   width: 30px;
-  margin: 6px;
-  background-color: #ddd;
+  margin: 7px;
+  background-color: #ddd1dd;
   opacity: .7;
   border-radius: 10px;
   transition: all .4s ease;
+  cursor: unset;
 }
 .bar:hover{
   cursor: pointer;
